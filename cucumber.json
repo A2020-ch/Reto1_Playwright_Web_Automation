@@ -1,0 +1,9 @@
+{
+  "default": {
+    "requireModule": ["ts-node/register"],
+    "require": ["src/step-definitions/**/*.ts", "src/support/hooks.ts"],
+    "paths": ["src/features/**/*.feature"],
+    "format": ["html:cucumber-report.html", "summary", "progress"],
+    "publishQuiet": true
+  }
+}

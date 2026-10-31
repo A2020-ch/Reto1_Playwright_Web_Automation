@@ -1,0 +1,17 @@
+{
+  "name": "playwright-google-drive-automation",
+  "version": "1.0.0",
+  "description": "Automatizacion Web con Playwright, TypeScript, POM y Cucumber BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "save-auth": "ts-node src/support/saveAuthState.ts"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^10.3.1",
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
